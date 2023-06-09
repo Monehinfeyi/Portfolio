@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+html,
+body {
+    display: flex;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+#wrapper-1 {
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    background-color: transparent;
+    margin-top:auto;
+    box-shadow: 0 8px 12px rgba(12, 12, 12, 0.25);
+    display: grid;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
